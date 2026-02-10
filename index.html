@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مكتبة ألعابي المميزة</title>
+    <title>مكتبة ألعابي المميزة | TECH</title>
+    
+    <!-- سكريبت الإعلانات الأول -->
+    <script src="https://pl28686929.effectivegatecpm.com/fb/5a/53/fb5a53d6203f0301de0895dbeadfeafd.js"></script>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -13,6 +17,7 @@
             font-family: 'Cairo', sans-serif;
             background: #0f172a;
             color: #f8fafc;
+            overflow-x: hidden;
         }
 
         .game-card {
@@ -43,22 +48,10 @@
             transition: transform 0.3s ease;
         }
 
-        .game-card:hover .game-image {
-            transform: scale(1.1);
-        }
-
         .gradient-text {
             background: linear-gradient(to right, #38bdf8, #818cf8);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-        }
-
-        .logo-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
         }
 
         .tech-logo {
@@ -66,7 +59,6 @@
             font-weight: 900;
             letter-spacing: -2px;
             line-height: 1;
-            position: relative;
             display: inline-block;
         }
 
@@ -82,27 +74,64 @@
             background: linear-gradient(135deg, #38bdf8 0%, #1d4ed8 100%);
             box-shadow: 0 4px 14px 0 rgba(56, 189, 248, 0.39);
         }
+
+        /* تنسيق أماكن الإعلانات الموزعة */
+        .ad-row {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255,255,255,0.02);
+            border-radius: 12px;
+            border: 1px dashed rgba(255,255,255,0.1);
+        }
+
+        .ad-sidebar {
+            display: none;
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 40;
+        }
+
+        @media (min-width: 1400px) {
+            .ad-sidebar { display: block; }
+        }
     </style>
 </head>
 <body class="min-h-screen pb-12">
 
-    <!-- Header with Custom Tech Logo -->
+    <!-- إعلان جانبي ثابت للشاشات الواسعة جداً -->
+    <div class="ad-sidebar right-4">
+        <script> atOptions = { 'key' : '852b97fef29c20c23591e63ef6b8f8b5', 'format' : 'iframe', 'height' : 300, 'width' : 160, 'params' : {} }; </script> 
+        <script src="https://www.highperformanceformat.com/852b97fef29c20c23591e63ef6b8f8b5/invoke.js"></script>
+    </div>
+
+    <!-- Header -->
     <header class="py-12 px-4 text-center">
-        <div class="logo-container">
-            <!-- الشعار المصمم برمجياً -->
+        <div class="flex flex-col items-center justify-center mb-8">
             <div class="tech-logo">
-                <span class="gradient-text italic">TECH</span>
+                <span class="gradient-text italic font-black">TECH</span>
                 <span class="arabic-part">أع</span>
             </div>
         </div>
-        <p class="text-slate-400 text-lg max-w-2xl mx-auto">اضغط على اللعبة التي تحبها وابدأ المغامرة فوراً!</p>
+        
+        <!-- إعلان "الرؤية الأصلية" في المقدمة -->
+        <div class="max-w-4xl mx-auto mb-10 overflow-hidden rounded-lg bg-slate-800/50 flex justify-center">
+            <div id="container-f14f364a0dc9ad3250234664e12a367d"></div>
+            <script async="async" data-cfasync="false" src="https://pl28686954.effectivegatecpm.com/f14f364a0dc9ad3250234664e12a367d/invoke.js"></script>
+        </div>
+
+        <p class="text-slate-400 text-lg max-w-2xl mx-auto italic">بوابة ألعابك المفضلة بإدارة TECH</p>
     </header>
 
     <!-- Games Grid -->
     <main class="max-w-6xl mx-auto px-4">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
             
-            <!-- Game 1: Kart Hooligans -->
+            <!-- لعبة 1 -->
             <div class="game-card rounded-2xl overflow-hidden flex flex-col">
                 <div class="game-image-container">
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipqaXVdDR1HCVYIXPsJOMjcByXaX5w4dcS00QQuD3fLw5s5vrmsdJcbDHQLHw1BKVZLofGBO6Y642MGHZ1Rv3fUJCvdgbhdeVkJKi1A0ZF0a2w_HYlwUnYZEnXdNnt4kL6YELcIOBnZTONW-1juquM95G6-2uv9cRnPbwE75i5-cJSO570rvZZakzt4eM/s400/322255_ico.png" alt="Kart Hooligans" class="game-image">
@@ -110,13 +139,11 @@
                 <div class="p-6 flex flex-col items-center text-center">
                     <h3 class="text-xl font-bold mb-2">Kart Hooligans</h3>
                     <p class="text-slate-400 text-sm mb-6">سباقات كارت مثيرة وتحديات ممتعة.</p>
-                    <a href="https://gemioli.com/karthooligans/" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">
-                        إلعب الآن
-                    </a>
+                    <a href="https://gemioli.com/karthooligans/" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">إلعب الآن</a>
                 </div>
             </div>
 
-            <!-- Game 2: Relic Runway -->
+            <!-- لعبة 2 -->
             <div class="game-card rounded-2xl overflow-hidden flex flex-col">
                 <div class="game-image-container">
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRPHxLscgHQXYRuz1MGkJ2wGumef3H00zKkADGCyX8l7KdkSxudWkmMgNV7yS17Ef7fNqriV2Bn1xExLeACn_bks7g8ithUYEJGw1oIERa7bx2h7z0U3YDAyzYb9U8rLohdFyCKkPuesQ7__jcMwSFHCvUCiKqFZLDgylfNkz12UDkiTDEySZMIOEXbqo/s400/322256_ico.png" alt="Relic Runway" class="game-image">
@@ -124,13 +151,11 @@
                 <div class="p-6 flex flex-col items-center text-center">
                     <h3 class="text-xl font-bold mb-2">Relic Runway</h3>
                     <p class="text-slate-400 text-sm mb-6">اهرب من الحارس واجمع الكنوز القديمة.</p>
-                    <a href="https://gemioli.com/relicrunway/" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">
-                        إلعب الآن
-                    </a>
+                    <a href="https://gemioli.com/relicrunway/" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">إلعب الآن</a>
                 </div>
             </div>
 
-            <!-- Game 3: Tomb Runner -->
+            <!-- لعبة 3 -->
             <div class="game-card rounded-2xl overflow-hidden flex flex-col">
                 <div class="game-image-container">
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSl-JiKYUoU6cZep6bEprCAxgWWF8L98_WC1lZov_BE7KOICTmt8cExv1hpz2r_I5xilmWfc5aKGRayTucTKvxZ60sll0eQA-GedUaD6XGzNKlqWu4GjonvloFTnWEG632uvjI1cdwJ5PlO5BvVdnPTwAHAydThoDKjffP8_gelTPvLv-9urDUTz9eMDI/s400/322258_ico.png" alt="Tomb Runner" class="game-image">
@@ -138,13 +163,17 @@
                 <div class="p-6 flex flex-col items-center text-center">
                     <h3 class="text-xl font-bold mb-2">Tomb Runner</h3>
                     <p class="text-slate-400 text-sm mb-6">اركض بأقصى سرعة وتجاوز العقبات الصعبة.</p>
-                    <a href="https://files.cdn.spilcloud.com/webgl/TR-13-01/index.html" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">
-                        إلعب الآن
-                    </a>
+                    <a href="https://files.cdn.spilcloud.com/webgl/TR-13-01/index.html" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">إلعب الآن</a>
                 </div>
             </div>
 
-            <!-- Game 4: Hooligans -->
+            <!-- فاصل إعلاني (بانر موزع) بعد أول صف -->
+            <div class="ad-row">
+                <script> atOptions = { 'key' : '852b97fef29c20c23591e63ef6b8f8b5', 'format' : 'iframe', 'height' : 300, 'width' : 160, 'params' : {} }; </script> 
+                <script src="https://www.highperformanceformat.com/852b97fef29c20c23591e63ef6b8f8b5/invoke.js"></script>
+            </div>
+
+            <!-- لعبة 4 -->
             <div class="game-card rounded-2xl overflow-hidden flex flex-col">
                 <div class="game-image-container">
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKp0WxTvRH7kQWikZoyrFkpTLPMefO_U0iBMwMh4xYjp6-y94y6smV2uKIkJXjsaI6_hewOEkf239RocDqxd9Vxgp0E6YgkHwVKNs9KNR8EfBrknmspkukB4psh5XuMdjkpNBq4bSuXr_aBVGgjvaRRXxBAdfEtCQzOZ8MF1BT5h-NTR6-ipq52HJqF0U/s400/322259_ico.png" alt="Hooligans" class="game-image">
@@ -152,13 +181,11 @@
                 <div class="p-6 flex flex-col items-center text-center">
                     <h3 class="text-xl font-bold mb-2">Hooligans</h3>
                     <p class="text-slate-400 text-sm mb-6">لعبة حماسية مليئة بالحركة والمهارة.</p>
-                    <a href="https://gemioli.com/hooligans/" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">
-                        إلعب الآن
-                    </a>
+                    <a href="https://gemioli.com/hooligans/" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">إلعب الآن</a>
                 </div>
             </div>
 
-            <!-- Game 5: The Saloon -->
+            <!-- لعبة 5 -->
             <div class="game-card rounded-2xl overflow-hidden flex flex-col">
                 <div class="game-image-container">
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirlqQqqUjHadIV98xS4gD2sxBc1w0d4nJrKS5_RsRZcrh0luo7qTCE8pszg9ilJxvYY65xOU7z6w0ZQOvhBmsFoSNZN5aR_wEn-cwnDJHTVZ2y_yRzRCAqMz9JaFiL4ndIgnY77siEvCEVS29ivqZLT1ya_tqQjYYdcgFLyv2BPEfTwKtQSAsudiQlcBk/s400/322260_ico.png" alt="The Saloon" class="game-image">
@@ -166,13 +193,11 @@
                 <div class="p-6 flex flex-col items-center text-center">
                     <h3 class="text-xl font-bold mb-2">The Saloon</h3>
                     <p class="text-slate-400 text-sm mb-6">تحديات ممتعة في عالم الغرب القديم.</p>
-                    <a href="https://gemioli.com/thesaloon/" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">
-                        إلعب الآن
-                    </a>
+                    <a href="https://gemioli.com/thesaloon/" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">إلعب الآن</a>
                 </div>
             </div>
 
-            <!-- Game 6: Colored Cups -->
+            <!-- لعبة 6 -->
             <div class="game-card rounded-2xl overflow-hidden flex flex-col">
                 <div class="game-image-container">
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKx9AjB8XjIU_jI2WsAXEZF2PH8Zib3vgJR3IY79aNQqlqGSWgUBfZPQO3pdAUk9S7ikCbvphG0OrIH4bDM0vp6jWTrZVxKMsdnjn0aWWlCMKq2vm11eEJMD_gmP8pF10AXuUk_56zSgXxG98t5r3j8s0xMWftrm7hshB5mXxRsmZkcPvnk7rSot2iGM4/s400/3839131_ico.png" alt="Colored Cups" class="game-image">
@@ -180,9 +205,7 @@
                 <div class="p-6 flex flex-col items-center text-center">
                     <h3 class="text-xl font-bold mb-2">Colored Cups</h3>
                     <p class="text-slate-400 text-sm mb-6">لعبة الأكواب الملونة لاختبار ذكائك وسرعتك.</p>
-                    <a href="https://x7oud3-ai.github.io/Colored-Cups-Game-/" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">
-                        إلعب الآن
-                    </a>
+                    <a href="https://x7oud3-ai.github.io/Colored-Cups-Game-/" target="_blank" class="btn-play w-full py-3 rounded-xl text-center font-bold hover:opacity-90 transition">إلعب الآن</a>
                 </div>
             </div>
 
@@ -190,8 +213,14 @@
     </main>
 
     <!-- Footer -->
-    <footer class="mt-20 text-center text-slate-500 text-sm">
-        <p>تم التصميم بواسطة Gemini | 2026 ©</p>
+    <footer class="mt-20 py-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <div class="mb-6 flex justify-center">
+            <!-- بانر إعلاني قبل الفوتر -->
+            <script> atOptions = { 'key' : '852b97fef29c20c23591e63ef6b8f8b5', 'format' : 'iframe', 'height' : 300, 'width' : 160, 'params' : {} }; </script> 
+            <script src="https://www.highperformanceformat.com/852b97fef29c20c23591e63ef6b8f8b5/invoke.js"></script>
+        </div>
+        <p class="font-bold text-slate-400 font-black">جميع حقوق النشر محفوظة لـ TECH &copy; 2026</p>
+        <p class="mt-2 text-xs italic text-blue-400">Gaming Portal Powered by TECH Experts</p>
     </footer>
 
 </body>
